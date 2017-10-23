@@ -68,7 +68,7 @@ var TabsPage = (function () {
     return TabsPage;
 }());
 TabsPage = __decorate([
-    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({template:/*ion-inline-start:"/Users/iwasawasouta/Desktop/仕事/trading-card/frontend/src/pages/tabs/tabs.html"*/'<ion-tabs>\n    <ion-tab [root]="tab1Root" tabTitle="ショップ" tabIcon="home"></ion-tab>\n    <ion-tab [root]="tab4Root" tabTitle="お気に入り" tabIcon="star"></ion-tab>\n    <ion-tab [root]="tab3Root" tabTitle="検索" tabIcon="search"></ion-tab>\n    <ion-tab [root]="tab3Root" tabTitle="通知" tabIcon="notifications"></ion-tab>\n    <ion-tab [root]="tab2Root" tabTitle="マイページ" tabIcon="contact"></ion-tab>\n  </ion-tabs>\n  '/*ion-inline-end:"/Users/iwasawasouta/Desktop/仕事/trading-card/frontend/src/pages/tabs/tabs.html"*/
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({template:/*ion-inline-start:"/Users/iwasawasouta/Desktop/仕事/trading-card/frontend/src/pages/tabs/tabs.html"*/'<ion-tabs>\n    <ion-tab [root]="tab1Root" tabTitle="ショップ" tabIcon="home"></ion-tab>\n    <ion-tab [root]="tab4Root" tabTitle="お気に入り" tabIcon="star"></ion-tab>\n    <ion-tab [root]="tab3Root" tabTitle="カート" tabIcon="cart"></ion-tab>\n    <ion-tab [root]="tab3Root" tabTitle="通知" tabIcon="notifications"></ion-tab>\n    <ion-tab [root]="tab2Root" tabTitle="マイページ" tabIcon="contact"></ion-tab>\n  </ion-tabs>\n  '/*ion-inline-end:"/Users/iwasawasouta/Desktop/仕事/trading-card/frontend/src/pages/tabs/tabs.html"*/
     }),
     __metadata("design:paramtypes", [])
 ], TabsPage);
@@ -138,7 +138,7 @@ var ContactPage = (function () {
 }());
 ContactPage = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-        selector: 'page-contact',template:/*ion-inline-start:"/Users/iwasawasouta/Desktop/仕事/trading-card/frontend/src/pages/contact/contact.html"*/'<ion-header>\n  <ion-navbar>\n    <ion-title>\n      Contact\n    </ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content>\n  <ion-list>\n    <ion-list-header>Follow us on Twitter</ion-list-header>\n    <ion-item>\n      <ion-icon name="ionic" item-left></ion-icon>\n      @ionicframework\n    </ion-item>\n  </ion-list>\n</ion-content>\n'/*ion-inline-end:"/Users/iwasawasouta/Desktop/仕事/trading-card/frontend/src/pages/contact/contact.html"*/
+        selector: 'page-contact',template:/*ion-inline-start:"/Users/iwasawasouta/Desktop/仕事/trading-card/frontend/src/pages/contact/contact.html"*/'  <ion-content>\n    <div class="items">\n      <div class="item">\n          <img src="assets/img/card1.jpg" alt="" width="100%" />\n          <span>テストです</span>\n      </div>\n      <div class="item">\n          <img src="assets/img/card1.jpg" alt="" width="100%" />\n          <span>テストです</span>\n      </div>\n      <div class="item">\n          <img src="assets/img/card1.jpg" alt="" width="100%" />\n          <span>テストです</span>\n      </div>    \n    </div>\n  </ion-content>\n  '/*ion-inline-end:"/Users/iwasawasouta/Desktop/仕事/trading-card/frontend/src/pages/contact/contact.html"*/
     }),
     __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* NavController */]])
 ], ContactPage);
@@ -173,11 +173,12 @@ var HomePage = (function () {
 }());
 HomePage = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-        selector: 'page-home',template:/*ion-inline-start:"/Users/iwasawasouta/Desktop/仕事/trading-card/frontend/src/pages/home/home.html"*/'<ion-header>\n  <ion-navbar>\n    <ion-title>Home</ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content padding>\n  <p>\n    <img src="assets/img/card1.jpg" alt="" >\n    テストです\n  </p>\n  <p>\n      <img src="assets/img/card1.jpg" alt="" >\n      テストです\n  </p>\n  <p>\n      <img src="assets/img/card1.jpg" alt="" >\n      テストです\n  </p>\n  <p>\n      <img src="assets/img/card1.jpg" alt="" >\n      テストです\n  </p>\n  <p>\n      <img src="assets/img/card1.jpg" alt="" >\n      テストです\n  </p>\n  <p>\n      <img src="assets/img/card1.jpg" alt="" >\n      テストです\n  </p>\n  <p>\n      <img src="assets/img/card1.jpg" alt="" >\n      テストです\n  </p>\n</ion-content>\n'/*ion-inline-end:"/Users/iwasawasouta/Desktop/仕事/trading-card/frontend/src/pages/home/home.html"*/
+        selector: 'page-home',template:/*ion-inline-start:"/Users/iwasawasouta/Desktop/仕事/trading-card/frontend/src/pages/home/home.html"*/'<ion-header>\n    <ion-navbar>\n        <ion-title>Home</ion-title>\n    </ion-navbar>\n</ion-header>\n\n<ion-content>\n    <div class="items">\n        <div class="item">\n            <div class="thumb">\n                <img src="assets/img/card1.jpg" alt="" width="100%" />\n            </div>\n            <div class="title">テストです</div>\n        </div>\n        <div class="item">\n            <div class="thumb">\n                <img src="assets/img/card1.jpg" alt="" width="100%" />\n            </div>\n            <div class="title">テストです</div>\n        </div>\n        <div class="item">\n            <div class="thumb">\n                <img src="assets/img/card1.jpg" alt="" width="100%" />\n            </div>\n            <div class="title">テストです</div>\n        </div>\n        <div class="item">\n            <div class="thumb">\n                <img src="assets/img/card1.jpg" alt="" width="100%" />\n            </div>\n            <div class="title">テストです</div>\n        </div>\n        <div class="item">\n            <div class="thumb">\n                <img src="assets/img/card1.jpg" alt="" width="100%" />\n            </div>\n            <div class="title">テストです</div>\n        </div>\n        <div class="item">\n            <div class="thumb">\n                <img src="assets/img/card1.jpg" alt="" width="100%" />\n            </div>\n            <div class="title">テストです</div>\n        </div>\n    </div>\n</ion-content>\n    '/*ion-inline-end:"/Users/iwasawasouta/Desktop/仕事/trading-card/frontend/src/pages/home/home.html"*/
     }),
-    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* NavController */]])
+    __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* NavController */]) === "function" && _a || Object])
 ], HomePage);
 
+var _a;
 //# sourceMappingURL=home.js.map
 
 /***/ }),
