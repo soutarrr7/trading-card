@@ -175,10 +175,9 @@ HomePage = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
         selector: 'page-home',template:/*ion-inline-start:"/Users/iwasawasouta/Desktop/仕事/trading-card/frontend/src/pages/home/home.html"*/'<ion-header>\n    <ion-navbar>\n        <ion-title>Home</ion-title>\n    </ion-navbar>\n</ion-header>\n\n<ion-content>\n    <div class="items">\n        <div class="item">\n            <div class="thumb">\n                <img src="assets/img/card1.jpg" alt="" width="100%" />\n            </div>\n            <div class="title">テストです</div>\n        </div>\n        <div class="item">\n            <div class="thumb">\n                <img src="assets/img/card1.jpg" alt="" width="100%" />\n            </div>\n            <div class="title">テストです</div>\n        </div>\n        <div class="item">\n            <div class="thumb">\n                <img src="assets/img/card1.jpg" alt="" width="100%" />\n            </div>\n            <div class="title">テストです</div>\n        </div>\n        <div class="item">\n            <div class="thumb">\n                <img src="assets/img/card1.jpg" alt="" width="100%" />\n            </div>\n            <div class="title">テストです</div>\n        </div>\n        <div class="item">\n            <div class="thumb">\n                <img src="assets/img/card1.jpg" alt="" width="100%" />\n            </div>\n            <div class="title">テストです</div>\n        </div>\n        <div class="item">\n            <div class="thumb">\n                <img src="assets/img/card1.jpg" alt="" width="100%" />\n            </div>\n            <div class="title">テストです</div>\n        </div>\n    </div>\n</ion-content>\n    '/*ion-inline-end:"/Users/iwasawasouta/Desktop/仕事/trading-card/frontend/src/pages/home/home.html"*/
     }),
-    __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* NavController */]) === "function" && _a || Object])
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* NavController */]])
 ], HomePage);
 
-var _a;
 //# sourceMappingURL=home.js.map
 
 /***/ }),
@@ -209,7 +208,7 @@ var CardPage = (function () {
 }());
 CardPage = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-        selector: 'page-card',template:/*ion-inline-start:"/Users/iwasawasouta/Desktop/仕事/trading-card/frontend/src/pages/card/card.html"*/'<ion-header>\n    <ion-navbar>\n      <ion-title>\n        カード\n      </ion-title>\n    </ion-navbar>\n  </ion-header>\n  \n  <ion-content padding>\n  \n  </ion-content>\n  '/*ion-inline-end:"/Users/iwasawasouta/Desktop/仕事/trading-card/frontend/src/pages/card/card.html"*/
+        selector: 'page-card',template:/*ion-inline-start:"/Users/iwasawasouta/Desktop/仕事/trading-card/frontend/src/pages/card/card.html"*/'<ion-header>\n  <ion-navbar>\n    <ion-title>\n      カード\n    </ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content padding>\n\n</ion-content>\n  '/*ion-inline-end:"/Users/iwasawasouta/Desktop/仕事/trading-card/frontend/src/pages/card/card.html"*/
     }),
     __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* NavController */]])
 ], CardPage);
