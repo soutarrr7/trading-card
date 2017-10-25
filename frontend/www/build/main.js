@@ -68,7 +68,7 @@ var TabsPage = (function () {
     return TabsPage;
 }());
 TabsPage = __decorate([
-    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({template:/*ion-inline-start:"/Users/iwasawasouta/Desktop/仕事/trading-card/frontend/src/pages/tabs/tabs.html"*/'<ion-tabs>\n    <ion-tab [root]="tab1Root" tabTitle="ショップ" tabIcon="home"></ion-tab>\n    <ion-tab [root]="tab4Root" tabTitle="お気に入り" tabIcon="star"></ion-tab>\n    <ion-tab [root]="tab3Root" tabTitle="カート" tabIcon="cart"></ion-tab>\n    <ion-tab [root]="tab3Root" tabTitle="通知" tabBadge="14" tabIcon="notifications"></ion-tab>\n    <ion-tab [root]="tab2Root" tabTitle="マイページ" tabIcon="contact"></ion-tab>\n  </ion-tabs>\n  '/*ion-inline-end:"/Users/iwasawasouta/Desktop/仕事/trading-card/frontend/src/pages/tabs/tabs.html"*/
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({template:/*ion-inline-start:"/Users/iwasawasouta/Desktop/仕事/trading-card/frontend/src/pages/tabs/tabs.html"*/'<ion-tabs>\n  <ion-tab [root]="tab1Root" tabTitle="ショップ" tabIcon="home"></ion-tab>\n  <ion-tab [root]="tab4Root" tabTitle="お気に入り" tabIcon="star"></ion-tab>\n  <ion-tab [root]="tab3Root" tabTitle="カート" tabIcon="cart"></ion-tab>\n  <ion-tab [root]="tab3Root" tabTitle="通知" tabBadge="14" tabIcon="notifications"></ion-tab>\n  <ion-tab [root]="tab2Root" tabTitle="マイページ" tabIcon="contact"></ion-tab>\n</ion-tabs>\n  '/*ion-inline-end:"/Users/iwasawasouta/Desktop/仕事/trading-card/frontend/src/pages/tabs/tabs.html"*/
     }),
     __metadata("design:paramtypes", [])
 ], TabsPage);
