@@ -1,17 +1,26 @@
 <ion-header>
-    <ion-navbar>
-        <ion-title>Home</ion-title>
-    </ion-navbar>
+    <ion-toolbar>
+        <ion-segment>
+            <ion-segment-button value="home">
+              新着
+            </ion-segment-button>
+            <ion-segment-button value="hot">
+              人気
+            </ion-segment-button>
+          </ion-segment>
+    </ion-toolbar>
 </ion-header>
 
 <ion-content>
     <div class="items">
-        <div class="item">
-            <div class="thumb">
-                <img src="assets/img/card1.jpg" alt="" width="100%" />
+        <a href="">
+            <div class="item">
+                <div class="thumb">
+                    <img src="assets/img/card1.jpg" alt="" width="100%" />
+                </div>
+                <div class="title">¥5000</div>
             </div>
-            <div class="title">¥5000</div>
-        </div>
+        </a>
         <div class="item">
             <div class="thumb">
                 <img src="assets/img/card2.jpg" alt="" width="100%" />

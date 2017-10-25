@@ -25524,7 +25524,7 @@ ion-navbar.toolbar {
   margin-top: 10px;
 }
 
-.item {
+page-home .item {
   width: 33%;
   height: 182px;
   float: left;
@@ -25533,12 +25533,12 @@ ion-navbar.toolbar {
   position: relative;
 }
 
-.item .thumb {
+page-home .item .thumb {
   width: 100%;
   height: 100%;
 }
 
-.item .title {
+page-home .item .title {
   position: absolute;
   text-align: center;
   width: 50%;
@@ -25551,7 +25551,7 @@ ion-navbar.toolbar {
   border-radius: 10px;
 }
 
-.items {
+page-home .items {
   width: 100%;
   overflow: hidden;
 }
