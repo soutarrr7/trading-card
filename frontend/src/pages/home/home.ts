@@ -8,12 +8,14 @@ import { CardPage } from '../card/card';
 })
 export class HomePage {
 
-  constructor(public navCtrl: NavController) {
+  constructor(public nav: NavController) {
 
   }
 
-  onClick() {
-    this.navCtrl.push(CardPage);
+  onClick(id) {
+    this.nav.push(CardPage, {
+      id: id
+    });
   }
 
 }
