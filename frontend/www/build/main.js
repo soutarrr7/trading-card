@@ -179,10 +179,9 @@ HomePage = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
         selector: 'page-home',template:/*ion-inline-start:"/Users/iwasawasouta/Desktop/仕事/trading-card/frontend/src/pages/home/home.html"*/'<ion-header>\n    <ion-toolbar>\n        <ion-segment>\n            <ion-segment-button value="home">\n              新着\n            </ion-segment-button>\n            <ion-segment-button value="hot">\n              人気\n            </ion-segment-button>\n          </ion-segment>\n    </ion-toolbar>\n</ion-header>\n\n<ion-content>\n    <div class="items">\n        <div class="item" (click)="onClick(0)">\n            <div class="thumb">\n                <img src="assets/img/card1.jpg" alt="" width="100%" />\n            </div>\n            <div class="title">¥5000</div>\n        </div>\n        <div class="item" (click)="onClick(1)">\n            <div class="thumb">\n                <img src="assets/img/card2.jpg" alt="" width="100%" />\n            </div>\n            <div class="title">¥5000</div>\n        </div>\n        <div class="item" (click)="onClick(2)">\n            <div class="thumb">\n                <img src="assets/img/card3.jpg" alt="" width="100%" />\n            </div>\n            <div class="title">¥5000</div>\n        </div>\n        <div class="item" (click)="onClick(3)">\n            <div class="thumb">\n                <img src="assets/img/card4.jpg" alt="" width="100%" />\n            </div>\n            <div class="title">¥5000</div>\n        </div>\n        <div class="item" (click)="onClick(4)">\n            <div class="thumb">\n                <img src="assets/img/card5.jpg" alt="" width="100%" />\n            </div>\n            <div class="title">¥5000</div>\n        </div>\n        <div class="item" (click)="onClick(5)">\n            <div class="thumb">\n                <img src="assets/img/card6.jpg" alt="" width="100%" />\n            </div>\n            <div class="title">¥5000</div>\n        </div>\n        <div class="item" (click)="onClick(6)">\n            <div class="thumb">\n                <img src="assets/img/card7.jpg" alt="" width="100%" />\n            </div>\n            <div class="title">¥5000</div>\n        </div>\n        <div class="item" (click)="onClick(7)">\n            <div class="thumb">\n                <img src="assets/img/card8.jpg" alt="" width="100%" />\n            </div>\n            <div class="title">¥5000</div>\n        </div>\n        <div class="item" (click)="onClick(8)">\n            <div class="thumb">\n                <img src="assets/img/card9.jpg" alt="" width="100%" />\n            </div>\n            <div class="title">¥5000</div>\n        </div>\n        <div class="item" (click)="onClick(9)">\n            <div class="thumb">\n                <img src="assets/img/card10.jpg" alt="" width="100%" />\n            </div>\n            <div class="title">¥5000</div>\n        </div>\n    </div>\n</ion-content>\n    '/*ion-inline-end:"/Users/iwasawasouta/Desktop/仕事/trading-card/frontend/src/pages/home/home.html"*/
     }),
-    __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* NavController */]) === "function" && _a || Object])
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* NavController */]])
 ], HomePage);
 
-var _a;
 //# sourceMappingURL=home.js.map
 
 /***/ }),
@@ -260,10 +259,9 @@ CardPage = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
         selector: 'page-card',template:/*ion-inline-start:"/Users/iwasawasouta/Desktop/仕事/trading-card/frontend/src/pages/card/card.html"*/'<ion-header>\n  <ion-navbar>\n    <ion-title>\n      {{ card.title }}\n    </ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content>\n  <div class="img">\n    <img src="assets/img/{{ card.img }}" alt="" width="100%">\n  </div>\n</ion-content>\n  '/*ion-inline-end:"/Users/iwasawasouta/Desktop/仕事/trading-card/frontend/src/pages/card/card.html"*/
     }),
-    __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* NavController */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavParams */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavParams */]) === "function" && _b || Object])
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavParams */]])
 ], CardPage);
 
-var _a, _b;
 //# sourceMappingURL=card.js.map
 
 /***/ }),
@@ -396,10 +394,9 @@ var MyApp = (function () {
 MyApp = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({template:/*ion-inline-start:"/Users/iwasawasouta/Desktop/仕事/trading-card/frontend/src/app/app.html"*/'<ion-nav [root]="rootPage"></ion-nav>\n'/*ion-inline-end:"/Users/iwasawasouta/Desktop/仕事/trading-card/frontend/src/app/app.html"*/
     }),
-    __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* Platform */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* Platform */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__["a" /* StatusBar */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__["a" /* StatusBar */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__["a" /* SplashScreen */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__["a" /* SplashScreen */]) === "function" && _c || Object])
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* Platform */], __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__["a" /* StatusBar */], __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__["a" /* SplashScreen */]])
 ], MyApp);
 
-var _a, _b, _c;
 //# sourceMappingURL=app.component.js.map
 
 /***/ })
